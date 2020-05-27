@@ -1,0 +1,208 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*header*/
+header.influence {
+  background-image: url(../images/image1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  height: 100vw;
+}
+label.LOGO {
+  color: aliceblue;
+  font-size: 20px;
+  line-height: 50px;
+}
+nav ul {
+  float: right;
+  margin-right: 20px;
+}
+
+.influence p {
+  text-align: center;
+  padding-top: 130px;
+  padding-left: 45px;
+  padding-right: 45px;
+  color: rgb(252, 252, 252);
+}
+header button {
+  width: 45%;
+  height: 8%;
+  text-align: center;
+  text-transform: lowercase;
+  margin: 20px;
+  background-color: #c73b69;
+  color: #f1eeee;
+  border-radius: 1rem;
+  border: none;
+  margin-left: 25%;
+}
+.mission {
+  background-color: white;
+}
+.mission h3 {
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  padding: 30px;
+}
+.mission p {
+  font-family: "montserrat", sans-serif;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+/*Division*/
+.people {
+  background-color: #dad6d6;
+}
+.people h3 {
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  padding: 30px;
+}
+.people p {
+  font-family: "montserrat", sans-serif;
+  font-style: oblique;
+  text-align: center;
+  padding-bottom: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.info {
+  background-color: #dad6d6;
+}
+/*division1*/
+
+.dolor h5 {
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  padding-top: 10px;
+}
+.dolor p {
+  text-align: center;
+  font-family: "montserrat", sans-serif;
+  padding: 20px;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+.Rastus {
+  width: 60vw;
+  height: 30vh;
+  margin-left: 20%;
+}
+.dolor div {
+  text-align: start;
+  color: #a7fcfc;
+  padding-bottom: 10%;
+  padding-left: 10%;
+}
+/*division2*/
+.amet h5 {
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  padding-top: 10px;
+}
+.amet p {
+  text-align: center;
+  font-family: "montserrat", sans-serif;
+  padding: 20px;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+.elit {
+  width: 60vw;
+  height: 30vh;
+  margin-left: 20%;
+}
+.amet div {
+  text-align: start;
+  color: #a7fcfc;
+  padding-bottom: 10%;
+  padding-left: 10%;
+}
+/*division3*/
+.placeat h5 {
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  padding-top: 10px;
+}
+.placeat p {
+  text-align: center;
+  font-family: "montserrat", sans-serif;
+  padding: 20px;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+.optio {
+  width: 60vw;
+  height: 30vh;
+  margin-left: 20%;
+}
+.placeat div {
+  text-align: start;
+  color: #a7fcfc;
+  padding-bottom: 10%;
+  padding-left: 10%;
+}
+/*division4*/
+.trail {
+  background-color: #e62b69;
+}
+.trail p {
+  text-align: center;
+  font-family: "montserrat", sans-serif;
+  padding: 20px;
+  color: #f1eeee;
+}
+.trail button {
+  width: 60%;
+  height: 15%;
+  text-transform: lowercase;
+  background-color: #c73b69;
+  margin: 20px;
+  color: #f1eeee;
+  border-radius: 1rem;
+  border: none;
+  margin-left: 25%;
+}
+/*footer*/
+.fugiat {
+  margin: 10%;
+}
+.fugiat h5 {
+  font-style: oblique;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.fugiat ul {
+  font-style: italic;
+}
+.help {
+  margin: 10%;
+}
+.help h5 {
+  font-style: oblique;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.help ul {
+  font-style: italic;
+}
+.contact {
+  margin: 10%;
+}
+.contact h5 {
+  font-style: oblique;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.contact ul {
+  font-style: italic;
+}
+.fab {
+  margin: 5%;
+  font-size: 5vh;
+}
+.fas {
+  margin: 5%;
+  font-size: 5vh;
+}
