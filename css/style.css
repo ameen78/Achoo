@@ -15,11 +15,17 @@ header.influence {
   height: 100vw;
 }
 label.logo {
-  color: aliceblue;
   font-size: 20px;
   padding: 7px;
 }
-
+.menu {
+  display: flex;
+  color: aliceblue;
+}
+.menu i {
+  padding-top: 4%;
+  padding-left: 70%;
+}
 /*manu*/
 nav ul {
   float: right;
@@ -32,10 +38,6 @@ nav ul li {
 nav ul li a {
   color: aliceblue;
 }
-.influence i {
-  color: aliceblue;
-  padding-left: 230px;
-}
 
 /*header*/
 .influence p {
@@ -44,7 +46,7 @@ nav ul li a {
   padding-left: 45px;
   padding-right: 45px;
   color: rgb(252, 252, 252);
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 header button {
   width: 45%;
