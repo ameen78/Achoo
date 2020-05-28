@@ -34,7 +34,7 @@ nav ul li a {
 }
 .influence i {
   color: aliceblue;
-  padding-left: 220px;
+  padding-left: 226px;
 }
 
 /*header*/
@@ -44,6 +44,7 @@ nav ul li a {
   padding-left: 45px;
   padding-right: 45px;
   color: rgb(252, 252, 252);
+  font-size: 1.5rem;
 }
 header button {
   width: 45%;
@@ -110,7 +111,7 @@ header button {
   text-align: start;
   color: #86f8f8f8;
   padding-bottom: 10%;
-  padding-left: 10%;
+  padding-left: 17%;
 }
 /*division2*/
 .amet h5 {
@@ -134,7 +135,7 @@ header button {
   text-align: start;
   color: #86f8f8f8;
   padding-bottom: 10%;
-  padding-left: 10%;
+  padding-left: 17%;
 }
 /*division3*/
 .placeat h5 {
@@ -158,7 +159,7 @@ header button {
   text-align: start;
   color: #86f8f8f8;
   padding-bottom: 20%;
-  padding-left: 10%;
+  padding-left: 17%;
 }
 /*division4*/
 .trail {
