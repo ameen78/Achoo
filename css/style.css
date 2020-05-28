@@ -236,11 +236,100 @@ header button {
 }
 .symbols {
   margin-left: 10%;
-
   font-size: 5vh;
 }
 footer h3 {
   margin-left: 10%;
   margin-bottom: 15%;
   margin-top: 4%;
+}
+
+@media screen and (min-width: 375px) {
+  /*header*/
+  .menu i {
+    padding-left: 75%;
+    margin-bottom: 7%;
+  }
+  .influence {
+    background-size: cover;
+  }
+
+  .mission h3 {
+    font-size: 1.5rem;
+  }
+  .mission p {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  /*division*/
+  .people h3 {
+    font-size: 1.5rem;
+  }
+  .people p {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  /*division1*/
+  .Rastus {
+    height: 39vh;
+  }
+  /*division2*/
+  .elit {
+    height: 39vh;
+  }
+  /*division3*/
+  .optio {
+    height: 39vh;
+  }
+  /*footer*/
+  .fugiat h5 {
+    font-size: 1.2rem;
+  }
+  .fugiat ul {
+    font-size: 1.2rem;
+  }
+  .help h5 {
+    font-size: 1.2rem;
+  }
+  .help ul {
+    font-size: 1.2rem;
+  }
+  .contact h5 {
+    font-size: 1.2rem;
+  }
+  .contact ul {
+    font-size: 1.2rem;
+  }
+  .symbols {
+    font-size: 6vh;
+  }
+  footer h3 {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (min-width: 425) {
+  .menu i {
+    margin-left: 80%;
+    margin-bottom: 10%;
+  }
+  .mission p {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .people p {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .Rastus {
+    height: 44vh;
+    width: 62vw;
+  }
+  .amet {
+    height: 44vh;
+    width: 62vw;
+  }
+  .elit {
+    height: 44vh;
+    width: 62vw;
+  }
 }
