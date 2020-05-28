@@ -17,6 +17,7 @@ header.influence {
 label.logo {
   font-size: 20px;
   padding: 7px;
+  padding-left: 2%;
 }
 .menu {
   display: flex;
@@ -24,7 +25,7 @@ label.logo {
 }
 .menu i {
   padding-top: 4%;
-  padding-left: 70%;
+  padding-left: 72%;
 }
 /*manu*/
 nav ul {
