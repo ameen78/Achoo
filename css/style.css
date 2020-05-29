@@ -16,16 +16,15 @@ header.influence {
 }
 label.logo {
   font-size: 20px;
-  padding: 7px;
   padding-left: 2%;
 }
 .menu {
-  display: flex;
   color: aliceblue;
 }
 .menu i {
-  padding-top: 4%;
-  padding-left: 72%;
+  float: right;
+  margin-right: 15px;
+  margin-top: 6px;
 }
 /*manu*/
 nav ul {
@@ -245,15 +244,6 @@ footer h3 {
 }
 
 @media screen and (min-width: 375px) {
-  /*header*/
-  .menu i {
-    padding-left: 75%;
-    margin-bottom: 7%;
-  }
-  .influence {
-    background-size: cover;
-  }
-
   .mission h3 {
     font-size: 1.5rem;
   }
@@ -308,28 +298,168 @@ footer h3 {
   }
 }
 @media screen and (min-width: 425) {
-  .menu i {
-    margin-left: 80%;
-    margin-bottom: 10%;
-  }
+  /*header*/
+
   .mission p {
     padding-left: 25px;
     padding-right: 25px;
   }
+  /*people*/
   .people p {
     padding-left: 25px;
     padding-right: 25px;
   }
+  /*division1*/
   .Rastus {
     height: 44vh;
     width: 62vw;
   }
-  .amet {
-    height: 44vh;
-    width: 62vw;
-  }
+  /*division2*/
   .elit {
     height: 44vh;
     width: 62vw;
+  }
+  .optio {
+    height: 44vh;
+    width: 62vw;
+  }
+}
+@media screen and (min-width: 700px) {
+  label.logo {
+    font-size: 30px;
+    margin-top: 1%;
+  }
+  .menu i {
+    font-size: 1.5rem;
+    margin-top: 1%;
+  }
+  .influence p {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 200px;
+  }
+  header button {
+    height: 5%;
+    width: 30%;
+    margin-left: 34%;
+    font-size: 1.2rem;
+  }
+  .mission h3 {
+    font-size: 2rem;
+  }
+  .mission p {
+    padding-left: 27px;
+    padding-right: 27px;
+    font-size: 1.2rem;
+  }
+  .people h3 {
+    font-size: 2rem;
+  }
+  .people p {
+    padding-left: 27px;
+    padding-right: 27px;
+    font-size: 1.2rem;
+    padding-bottom: 15%;
+  }
+  .Rastus {
+    height: 49vh;
+    width: 55vw;
+  }
+  .dolor h5 {
+    font-size: 1.2rem;
+  }
+  .dolor p {
+    font-size: 1.2rem;
+    padding-left: 21%;
+    padding-right: 24%;
+  }
+  .dolor div {
+    font-size: 1.6rem;
+  }
+  .elit {
+    height: 49vh;
+    width: 55vw;
+  }
+  .amet h5 {
+    font-size: 1.2rem;
+  }
+  .amet p {
+    font-size: 1.2rem;
+    padding-left: 21%;
+    padding-right: 24%;
+  }
+  .amet div {
+    font-size: 1.6rem;
+  }
+  .optio {
+    height: 49vh;
+    width: 55vw;
+  }
+  .placeat h5 {
+    font-size: 1.2rem;
+  }
+  .placeat p {
+    font-size: 1.2rem;
+    padding-left: 21%;
+    padding-right: 24%;
+  }
+  .placeat div {
+    font-size: 1.6rem;
+  }
+  .trail p {
+    font-size: 1.2rem;
+    padding-top: 10%;
+  }
+  .trail button {
+    font-size: 1.2rem;
+    width: 45%;
+    margin-top: 5%;
+  }
+  .fugiat h5 {
+    font-size: 1.5rem;
+  }
+  .fugiat ul {
+    font-size: 1.5rem;
+    line-height: 32px;
+  }
+  .help h5 {
+    font-size: 1.5rem;
+  }
+  .help ul {
+    font-size: 1.5rem;
+    line-height: 32px;
+  }
+  .contact h5 {
+    font-size: 1.5rem;
+  }
+  .contact ul {
+    font-size: 1.5rem;
+    line-height: 32px;
+  }
+  .symbols {
+    font-size: 7vh;
+  }
+  footer h3 {
+    font-size: 1.8rem;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .menu i {
+    display: none;
+  }
+  label.logo {
+    font-size: 35px;
+    padding-left: 15%;
+    margin-top: 10%;
+  }
+  nav ul {
+    padding-bottom: 50%;
+  }
+  nav ul li {
+    display: grid;
+    font-size: 2rem;
+  }
+  nav ul li a {
+    text-decoration: none;
   }
 }
