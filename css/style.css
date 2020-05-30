@@ -472,7 +472,7 @@ footer h3 {
   .active {
     display: grid;
     justify-content: initial;
-    width: 90%;
+    width: 95%;
   }
 
   .influence p {
