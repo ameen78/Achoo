@@ -333,6 +333,7 @@ footer h3 {
     font-size: 1.5rem;
     margin-top: 1%;
   }
+
   .influence p {
     font-size: 2.5rem;
     text-align: center;
@@ -363,7 +364,8 @@ footer h3 {
   }
   .Rastus {
     height: 49vh;
-    width: 55vw;
+    width: 45vw;
+    padding-left: 10%;
   }
   .dolor h5 {
     font-size: 1.2rem;
@@ -378,7 +380,8 @@ footer h3 {
   }
   .elit {
     height: 49vh;
-    width: 55vw;
+    width: 45vw;
+    padding-left: 10%;
   }
   .amet h5 {
     font-size: 1.2rem;
@@ -393,7 +396,8 @@ footer h3 {
   }
   .optio {
     height: 49vh;
-    width: 55vw;
+    width: 45vw;
+    padding-left: 10%;
   }
   .placeat h5 {
     font-size: 1.2rem;
@@ -570,5 +574,41 @@ footer h3 {
     display: flex;
     justify-content: flex-end;
     margin-right: 20%;
+    font-size: 8vh;
+  }
+}
+@media screen and (min-width: 1440) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .influence {
+    background-size: 20%;
+  }
+  .mission h3 {
+    font-size: 3rem;
+  }
+  .mission p {
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+  .people {
+    background-position: center;
+    background-size: cover;
+  }
+  .people h3 {
+    font-size: 3rem;
+  }
+  .people p {
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+  .info {
+    background-position: center;
+    background-size: cover;
+  }
+  .dolor h5 {
+    padding-left: 2rem;
   }
 }
