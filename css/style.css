@@ -578,11 +578,6 @@ footer h3 {
   }
 }
 @media screen and (min-width: 1440) {
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
   .influence {
     background-size: 20%;
   }
@@ -607,8 +602,5 @@ footer h3 {
   .info {
     background-position: center;
     background-size: cover;
-  }
-  .dolor h5 {
-    padding-left: 2rem;
   }
 }
