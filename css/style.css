@@ -540,7 +540,7 @@ footer h3 {
   }
   .info {
     display: flex;
-    justify-content: center, center;
+    justify-content: center;
     background-size: cover;
   }
   .info p {
@@ -549,7 +549,27 @@ footer h3 {
   .info div {
     padding-bottom: 10%;
   }
-
+  .dolor h5 {
+    padding-left: 5rem;
+  }
+  .dolor p {
+    padding-left: 5rem;
+  }
+  .amet h5 {
+    padding-left: 5rem;
+  }
+  .amet p {
+    padding-left: 5rem;
+  }
+  .elit {
+    padding-right: 2%;
+  }
+  .placeat h5 {
+    padding-left: 5rem;
+  }
+  .placeat p {
+    padding-left: 5rem;
+  }
   .trail p {
     font-size: 1rem;
   }
