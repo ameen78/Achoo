@@ -1,633 +1,237 @@
 * {
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
   box-sizing: border-box;
 }
 body p {
-  font-family: "montserrat", sans-serif;
+  font-size: bold;
+  font-family: sans-serif;
 }
-/*header*/
-header.influence {
+.influence {
   background-image: url(/images/image1.jpg);
-  background-repeat: no-repeat;
-  background-size: cover, contain;
   background-position: center top;
-  height: 50vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 60vh;
+  width: 100%;
 }
-label.logo {
-  font-size: 20px;
-  padding-left: 2%;
+.nav-bar {
+  display: flex;
+  flex-direction: column;
+  display: none;
+  background-color: tomato;
+  margin-left: 80%;
 }
-.menu {
-  color: aliceblue;
+
+.nav-bar a {
+  text-align: center;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
 }
-.menu i {
-  float: right;
-  margin-right: 15px;
-  margin-top: 6px;
+.nav-bar :hover {
+  background-color: white;
+  color: red;
+  cursor: pointer;
 }
-/*manu*/
-nav ul {
-  float: right;
-  margin-right: 5px;
-  list-style: none;
+#toggle:checked + .nav-bar {
+  display: flex;
 }
-nav ul li {
+#toggle {
   display: none;
 }
-nav ul li a {
-  color: aliceblue;
+label i {
+  float: right;
+  padding-right: 15px;
+  color: white;
 }
-
-/*header*/
+header span {
+  padding: 15px;
+  color: white;
+}
 .influence p {
   text-align: center;
-  padding-top: 70px;
-  padding-left: 45px;
-  padding-right: 45px;
-  color: rgb(252, 252, 252);
-  font-size: 1.2rem;
+  padding-top: 30%;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: white;
+  font-size: 20px;
 }
 header button {
+  background-color: rgba(226, 34, 130, 0.767);
+  height: 25px;
   width: 45%;
-  height: 8%;
-  text-align: center;
-  text-transform: lowercase;
-  margin-top: 20px;
-  background-color: #c73b69;
-  color: #f1eeee;
-  border-radius: 1rem;
-  border: none;
   margin-left: 25%;
+  margin-top: 5%;
+  border-radius: 1rem;
+  color: #eeeaea;
+  border: none;
 }
-
 .mission h3 {
-  font-family: "Times New Roman", Times, serif;
   text-align: center;
-  padding: 30px;
+  margin-top: 50px;
+  margin-bottom: 15px;
+  font-size: 1.5rem;
 }
 .mission p {
-  padding-left: 10px;
+  margin-top: 20px;
   text-align: center;
-  padding-right: 10px;
-  margin-bottom: 20%;
+  padding: 5%;
 }
-/*Division*/
-.people {
-  background-color: #dad6d6;
-}
+
 .people h3 {
-  font-family: "Times New Roman", Times, serif;
   text-align: center;
-  padding: 30px;
+  padding-top: 20%;
+  padding-bottom: 10%;
+  font-size: 1.5rem;
 }
 .people p {
   text-align: center;
-  padding-bottom: 40px;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-bottom: 5%;
 }
 .info {
-  background-color: #dad6d6;
-  display: grid;
-  justify-content: space-evenly;
+  background-color: rgb(124, 119, 119);
+  background-size: cover;
+  padding-bottom: 20px;
 }
-.info p {
-  padding: 20px;
-}
-/*division1*/
 .dolor {
-  border: 0.5px ridge;
-  margin: 30px;
-}
-.amet {
-  border: 0.5px ridge;
-  margin: 30px;
-}
-.placeat {
-  border: 0.5px ridge;
-  margin: 30px;
-}
-
-.dolor h5 {
-  font-family: "Times New Roman", Times, serif;
   text-align: center;
-  padding-top: 10px;
+  padding: 20px;
+  border: 1px solid;
+  margin: 4%;
+  margin-bottom: 0px;
+}
+.dolor h5 {
+  padding: 2%;
 }
 .dolor p {
-  text-align: center;
-  /*padding-top: 20px;*/
-  /*padding-left: 15%;
-  padding-right: 15%;
-  padding-bottom: 10px;*/
+  padding: 15px;
 }
 .Rastus {
-  width: 60vw;
-  height: 37vh;
-  margin-left: 20%;
+  width: 55%;
 }
 .dolor div {
-  text-align: start;
-  color: #86f8f8f8;
-  padding-bottom: 10%;
-  padding-left: 17%;
+  color: cyan;
+  float: left;
+  padding-bottom: 10px;
 }
-/*division2*/
-.amet h5 {
-  font-family: "Times New Roman", Times, serif;
-  text-align: center;
-  padding-top: 10px;
-}
-.amet p {
-  text-align: center;
-  /*padding-top: 20px;
-  padding-left: 15%;
-  padding-right: 15%;
-  padding-bottom: 10px;*/
-}
-.elit {
-  width: 60vw;
-  height: 37vh;
-  margin-left: 20%;
-}
-.amet div {
-  text-align: start;
-  color: #86f8f8f8;
-  padding-bottom: 10%;
-  padding-left: 17%;
-}
-/*division3*/
-.placeat h5 {
-  font-family: "Times New Roman", Times, serif;
-  text-align: center;
-  padding-top: 10px;
-}
-.placeat p {
-  text-align: center;
-  /*padding: 20px;
-  padding-left: 20%;
-  padding-right: 20%;
-  padding-bottom: 10px;*/
-}
-.optio {
-  width: 60vw;
-  height: 37vh;
-  margin-left: 20%;
-}
-.placeat div {
-  text-align: start;
-  color: #86f8f8f8;
-  padding-bottom: 20%;
-  padding-left: 17%;
-}
-/*division4*/
 .trail {
-  background-color: #da2f68;
+  background-color: rgba(241, 85, 111, 0.925);
 }
 .trail p {
   text-align: center;
-  padding-top: 6vh;
-  text-align: center;
-  color: #f1eeee;
-  padding-left: 10%;
-  padding-right: 10%;
+  padding: 20px;
+  color: #eeeaea;
 }
 .trail button {
-  width: 50%;
-  height: 5vh;
-  text-transform: lowercase;
-  background-color: #be1f54;
-  margin: 25px;
-  color: #f1eeee;
+  margin-left: 30%;
+  margin-bottom: 10%;
+  width: 45%;
+  height: 25px;
+  background-color: rgba(226, 34, 130, 0.767);
   border-radius: 1rem;
   border: none;
-  margin-left: 25%;
-  margin-bottom: 15%;
+  color: #eeeaea;
 }
-/*footer*/
-.neisen {
-  display: grid;
-}
-.fugiat {
-  margin: 10%;
-}
-.fugiat h5 {
-  font-style: normal;
-  font-family: Arial, Helvetica, sans-serif;
-  margin-bottom: 5%;
+.neisen h5 {
+  padding: 20px;
   font-size: 1rem;
 }
-.fugiat ul {
-  font-style: normal;
-  line-height: 25px;
+.neisen ul {
+  padding-left: 20px;
   list-style: none;
 }
-.help {
-  margin-left: 10%;
-}
-.help h5 {
-  font-style: normal;
-  font-family: Arial, Helvetica, sans-serif;
-  margin-bottom: 5%;
+.neisen ul li {
+  line-height: 125%;
   font-size: 1rem;
-}
-.help ul {
-  font-style: normal;
-  line-height: 25px;
-  list-style: none;
-}
-.contact {
-  margin: 10%;
-}
-.contact h5 {
-  font-style: normal;
-  font-family: Arial, Helvetica, sans-serif;
-  margin-bottom: 5%;
-  font-size: 1rem;
-}
-.contact ul {
-  font-style: normal;
-  line-height: 25px;
-  list-style: none;
 }
 .symbols {
-  margin-left: 10%;
-  font-size: 5vh;
+  padding: 5%;
+  font-size: 1.5rem;
 }
 footer h3 {
-  margin-left: 10%;
-  margin-bottom: 15%;
-  margin-top: 4%;
+  margin-left: 4%;
+  margin-bottom: 7%;
 }
-
 @media screen and (min-width: 375px) {
-  .mission h3 {
-    font-size: 1.5rem;
-  }
-  .mission p {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-  /*division*/
-  .people h3 {
-    font-size: 1.5rem;
-  }
   .people p {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
-  /*division1*/
-  .Rastus {
-    height: 39vh;
-  }
-  /*division2*/
-  .elit {
-    height: 39vh;
-  }
-  /*division3*/
-  .optio {
-    height: 39vh;
-  }
-  /*footer*/
-  .fugiat h5 {
+  .neisen ul li {
     font-size: 1.2rem;
   }
-  .fugiat ul {
-    font-size: 1.2rem;
-  }
-  .help h5 {
-    font-size: 1.2rem;
-  }
-  .help ul {
-    font-size: 1.2rem;
-  }
-  .contact h5 {
-    font-size: 1.2rem;
-  }
-  .contact ul {
-    font-size: 1.2rem;
+  .neisen h5 {
+    font-size: 1.5rem;
   }
   .symbols {
-    font-size: 6vh;
-  }
-  footer h3 {
-    font-size: 1.5rem;
-  }
-}
-@media screen and (min-width: 425) {
-  /*header*/
-
-  .mission p {
-    padding-left: 25px;
-    padding-right: 25px;
-  }
-  /*people*/
-  .people p {
-    padding-left: 25px;
-    padding-right: 25px;
-  }
-  /*division1*/
-  .Rastus {
-    height: 44vh;
-    width: 62vw;
-  }
-  /*division2*/
-  .elit {
-    height: 44vh;
-    width: 62vw;
-  }
-  .optio {
-    height: 44vh;
-    width: 62vw;
+    font-size: 1.7rem;
   }
 }
 @media screen and (min-width: 700px) {
-  label.logo {
-    font-size: 30px;
-    margin-top: 1%;
-  }
-  .menu i {
-    font-size: 1.5rem;
-    margin-top: 1%;
-  }
-
-  .influence p {
-    font-size: 2.5rem;
-    text-align: center;
-    margin-top: 200px;
-  }
-  header button {
-    height: 5%;
-    width: 30%;
-    margin-left: 34%;
-    font-size: 1.2rem;
-  }
-  .mission h3 {
-    font-size: 2rem;
-  }
-  .mission p {
-    padding-left: 27px;
-    padding-right: 27px;
-    font-size: 1.2rem;
-  }
-  .people h3 {
-    font-size: 2rem;
-  }
-  .people p {
-    padding-left: 27px;
-    padding-right: 27px;
-    font-size: 1.2rem;
-    padding-bottom: 15%;
-  }
-  .Rastus {
-    height: 49vh;
-    width: 45vw;
-    padding-left: 10%;
-  }
-  .dolor h5 {
-    font-size: 1.2rem;
-  }
-  .dolor p {
-    font-size: 1.2rem;
-    padding-left: 21%;
-    padding-right: 24%;
-  }
-  .dolor div {
-    font-size: 1.6rem;
-  }
-  .elit {
-    height: 49vh;
-    width: 45vw;
-    padding-left: 10%;
-  }
-  .amet h5 {
-    font-size: 1.2rem;
-  }
-  .amet p {
-    font-size: 1.2rem;
-    padding-left: 21%;
-    padding-right: 24%;
-  }
-  .amet div {
-    font-size: 1.6rem;
-  }
-  .optio {
-    height: 49vh;
-    width: 45vw;
-    padding-left: 10%;
-  }
-  .placeat h5 {
-    font-size: 1.2rem;
-  }
-  .placeat p {
-    font-size: 1.2rem;
-    padding-left: 21%;
-    padding-right: 24%;
-  }
-  .placeat div {
-    font-size: 1.6rem;
-  }
-  .trail p {
-    font-size: 1.2rem;
-    padding-top: 10%;
-  }
-  .trail button {
-    font-size: 1.2rem;
-    width: 45%;
-    margin-top: 5%;
-  }
-  .fugiat h5 {
-    font-size: 1.5rem;
-  }
-  .fugiat ul {
-    font-size: 1.5rem;
-    line-height: 32px;
-  }
-  .help h5 {
-    font-size: 1.5rem;
-  }
-  .help ul {
-    font-size: 1.5rem;
-    line-height: 32px;
-  }
-  .contact h5 {
-    font-size: 1.5rem;
-  }
-  .contact ul {
-    font-size: 1.5rem;
-    line-height: 32px;
-  }
-  .symbols {
-    font-size: 7vh;
-  }
-  footer h3 {
-    font-size: 1.8rem;
-  }
-}
-@media screen and (min-width: 1000px) {
-  .menu i {
-    display: none;
-  }
-  label.logo {
-    font-size: 35px;
-    padding-left: 15%;
-    padding-top: 15%;
-  }
-  nav ul li {
-    display: inline-flex;
-    justify-content: space-evenly;
-  }
-  nav ul li a {
-    text-decoration: none;
-    font-size: 1rem;
-  }
-
-  .influence p {
-    font-size: 2.7rem;
-    text-align: center;
-    padding-left: 20%;
-    padding-right: 20%;
-    padding-top: 20%;
-  }
-  header button {
-    height: 5%;
-    width: 30%;
-    margin-top: 5%;
-    font-size: 1.5rem;
-    border-radius: 1.5rem;
-  }
-  .mission h3 {
-    font-size: 2.7rem;
-  }
-  .mission p {
-    font-size: 1.5rem;
-    padding-left: 32px;
-    padding-right: 32px;
-  }
-  .people h3 {
-    font-size: 2.7rem;
-  }
-  .people p {
-    font-size: 1.5rem;
-    padding-left: 35px;
-    padding-right: 35px;
-  }
-  .Rastus {
-    height: 55vh;
-    width: initial;
-  }
-  .dolor {
-    padding-left: 15%;
-  }
-
-  .dolor div {
-    font-size: 1.2rem;
-  }
-  .elit {
-    height: 55vh;
-    width: initial;
-  }
-  .amet {
-    padding-left: 2%;
-  }
-
-  .amet div {
-    font-size: 1.2rem;
-  }
-  .optio {
-    height: 55vh;
-    width: initial;
-  }
-  .placeat {
-    padding-right: 18%;
-  }
-
-  .placeat div {
-    font-size: 1.2rem;
-  }
-  .info {
-    display: flex;
-    justify-content: center;
-    background-size: cover;
-  }
-  .info p {
-    font-size: initial;
-  }
-  .info div {
-    padding-bottom: 10%;
-  }
-  .dolor h5 {
-    padding-left: 5rem;
-  }
-  .dolor p {
-    padding-left: 5rem;
-  }
-  .amet h5 {
-    padding-left: 5rem;
-  }
-  .amet p {
-    padding-left: 5rem;
-  }
-  .elit {
-    padding-right: 2%;
-  }
-  .placeat h5 {
-    padding-left: 5rem;
-  }
-  .placeat p {
-    padding-left: 5rem;
-  }
-  .trail p {
-    font-size: 1rem;
-  }
-  .trail button {
-    width: 23%;
-    margin-top: 10%;
-    font-size: 0.7rem;
-  }
-  .trail {
-    display: flex;
-    justify-content: space-evenly;
-  }
-
-  .neisen {
-    display: flex;
-    justify-content: space-around;
-  }
-  .help {
-    margin-top: 10%;
-  }
-  .symbols {
-    display: flex;
-    justify-content: flex-end;
-    margin-right: 20%;
-    font-size: 8vh;
-  }
-}
-@media screen and (min-width: 1440) {
   .influence {
-    background-size: 20%;
+    height: 70vw;
   }
-  .mission h3 {
-    font-size: 3rem;
+  .influence p {
+    font-size: 1.5rem;
   }
-  .mission p {
-    padding-left: 20%;
-    padding-right: 20%;
+  header button {
+    height: 30px;
+    width: 47%;
+    font-size: 1.2rem;
   }
   .people {
-    background-position: center;
-    background-size: cover;
-  }
-  .people h3 {
-    font-size: 3rem;
+    margin-bottom: 10%;
+    padding-left: 20px;
+    padding-right: 20px;
   }
   .people p {
-    padding-left: 20%;
-    padding-right: 20%;
+    font-size: 1.2rem;
   }
-  .info {
-    background-position: center;
-    background-size: cover;
+  .people h3 {
+    font-size: 1.9rem;
+  }
+  .mission p {
+    font-size: 1.2rem;
+  }
+  .mission h3 {
+    font-size: 1.9rem;
+  }
+  .dolor h5 {
+    font-size: 1rem;
+  }
+  .dolor p {
+    font-size: 1.2rem;
+  }
+  .trail p {
+    padding-top: 8%;
+    font-size: 1.2rem;
+  }
+  .trail button {
+    margin-top: 4%;
+    font-size: 1.2rem;
+    height: 30px;
+    width: 47%;
+  }
+  .neisen h5 {
+    font-size: 1.7rem;
+  }
+  .neisen ul li {
+    font-size: 1.5rem;
+  }
+  .symbols {
+    font-size: 1.9rem;
+  }
+  footer h3 {
+    font-size: 1.7rem;
+  }
+}
+@media screen and (min-width: 1000) {
+  .influence {
+    height: 80vw;
+  }
+  .influence p {
+    font-size: 1.8rem;
   }
 }
