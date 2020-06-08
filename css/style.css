@@ -91,7 +91,7 @@ header button {
   padding-bottom: 5%;
 }
 .info {
-  background-color: rgb(124, 119, 119);
+  background-color: #dad0d0;
   background-size: cover;
   padding-bottom: 20px;
 }
@@ -117,7 +117,7 @@ header button {
   padding-bottom: 10px;
 }
 .trail {
-  background-color: rgba(241, 85, 111, 0.925);
+  background-color: rgba(226, 34, 110, 0.925);
 }
 .trail p {
   text-align: center;
@@ -129,7 +129,7 @@ header button {
   margin-bottom: 10%;
   width: 45%;
   height: 25px;
-  background-color: rgba(226, 34, 130, 0.767);
+  background-color: rgba(206, 30, 118, 0.767);
   border-radius: 1rem;
   border: none;
   color: #eeeaea;
@@ -232,6 +232,13 @@ footer h3 {
     height: 80vw;
   }
   .influence p {
-    font-size: 1.8rem;
+    font-size: 2rem;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  header button {
+    height: 30px;
+    width: 30%;
   }
 }
