@@ -13,78 +13,35 @@ body p {
   background-repeat: no-repeat;
   background-size: cover;
   height: 60vh;
+
   width: 100%;
 }
-.nav-bar {
-  display: flex;
-  flex-direction: column;
-  display: none;
-  background-color: tomato;
-  margin-left: 80%;
-}
-
-.nav-bar a {
-  text-align: center;
-  font-weight: bold;
-  text-decoration: none;
-  text-transform: uppercase;
-  color: white;
-}
-.nav-bar :hover {
-  background-color: white;
-  color: red;
-  cursor: pointer;
-}
-#toggle:checked + .nav-bar {
-  display: flex;
-}
-#toggle {
-  display: none;
-}
-label i {
-  float: right;
-  padding-right: 15px;
-  color: white;
-}
-header span {
-  padding: 15px;
-  color: white;
+.menu {
+  color: #eeeaea;
+  padding: 10px;
 }
 .influence p {
   text-align: center;
-  padding-top: 30%;
-  padding-left: 10px;
-  padding-right: 10px;
+
   color: white;
   font-size: 20px;
 }
 header button {
   background-color: rgba(226, 34, 130, 0.767);
-  height: 25px;
-  width: 45%;
-  margin-left: 25%;
-  margin-top: 5%;
   border-radius: 1rem;
   color: #eeeaea;
   border: none;
 }
 .mission h3 {
   text-align: center;
-  margin-top: 50px;
-  margin-bottom: 15px;
-  font-size: 1.5rem;
+  font-size: 30px;
 }
 .mission p {
-  margin-top: 20px;
   text-align: center;
-  padding: 5%;
 }
-
 .people h3 {
   text-align: center;
-  padding-top: 20%;
-  padding-bottom: 10%;
-  font-size: 1.5rem;
+  font-size: 30px;
 }
 .people p {
   text-align: center;
@@ -97,78 +54,121 @@ header button {
 }
 .dolor {
   text-align: center;
-  padding: 20px;
-  border: 1px solid;
-  margin: 4%;
-  margin-bottom: 0px;
 }
 .dolor h5 {
-  padding: 2%;
+  text-align: left;
 }
 .dolor p {
-  padding: 15px;
+  text-align: left;
 }
-.Rastus {
-  width: 55%;
-}
-.dolor div {
+.achoo p {
   color: cyan;
-  float: left;
-  padding-bottom: 10px;
+  padding: 10px;
 }
+
 .trail {
   background-color: rgba(226, 34, 110, 0.925);
 }
 .trail p {
   text-align: center;
-  padding: 20px;
   color: #eeeaea;
 }
+
 .trail button {
-  margin-left: 30%;
-  margin-bottom: 10%;
-  width: 45%;
-  height: 25px;
   background-color: rgba(206, 30, 118, 0.767);
   border-radius: 1rem;
   border: none;
   color: #eeeaea;
 }
 .neisen h5 {
-  padding: 20px;
-  font-size: 1rem;
+  font-size: 16px;
 }
 .neisen ul {
-  padding-left: 20px;
   list-style: none;
 }
-.neisen ul li {
-  line-height: 125%;
-  font-size: 1rem;
-}
 .symbols {
-  padding: 5%;
-  font-size: 1.5rem;
+  font-size: 25px;
 }
-footer h3 {
-  margin-left: 4%;
-  margin-bottom: 7%;
-}
-@media screen and (min-width: 375px) {
-  .people p {
+@media screen and (min-width: 320px) {
+  .influence {
+    min-height: 70vh;
+  }
+  .influence p {
+    /*padding: 90px, 10px, 0px, 10px;*/
+    padding-top: 30%;
     padding-left: 10px;
     padding-right: 10px;
   }
-  .neisen ul li {
-    font-size: 1.2rem;
+  .nav-bar {
+    display: none;
+  }
+  .menu i {
+    float: right;
+  }
+  header button {
+    height: 25px;
+    width: 45%;
+    /* margin: 25px, 0px, 0px, 70px;*/
+    margin-left: 25%;
+    margin-top: 5%;
+  }
+  .mission h3 {
+    margin: 50px, 0px, 0px, 15px;
+    /* margin-top: 50px;
+    margin-bottom: 15px;*/
+  }
+  .mission p {
+    padding: 20px;
+    margin-top: 20px;
+  }
+  .people h3 {
+    padding-top: 20%;
+    padding-bottom: 10%;
+  }
+  .dolor {
+    padding: 20px;
+    margin: 26px;
+    margin-bottom: 0px;
+  }
+
+  .dolor h5 {
+    padding-left: 55px;
+  }
+  .dolor p {
+    padding-left: 55px;
+  }
+  .Rastus {
+    width: 55%;
+  }
+  .trail p {
+    padding: 20px;
+  }
+  .trail button {
+    /* margin: 0px, 80px, 40px, 0px;*/
+    margin-left: 30%;
+    margin-bottom: 10%;
+    width: 45%;
+    height: 25px;
   }
   .neisen h5 {
-    font-size: 1.5rem;
+    padding: 20px;
+  }
+  .neisen ul {
+    padding-left: 20px;
+  }
+  .neisen ul li {
+    font-size: 16px;
   }
   .symbols {
-    font-size: 1.7rem;
+    padding: 25px;
+  }
+  footer h3 {
+    margin: 0px, 26px, 0px, 40px;
+    margin-left: 4%;
+    margin-bottom: 7%;
   }
 }
+
 @media screen and (min-width: 700px) {
   .influence {
     height: 70vw;
