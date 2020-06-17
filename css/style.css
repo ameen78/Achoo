@@ -123,22 +123,65 @@
     height: 100vh;
   }
   .start {
-    padding: 140px 10px 0px 10px;
+    padding: 150px 10px 0px 10px;
   }
   .influence p {
     font-size: 25px;
   }
   .influence button {
     width: 155px;
+    margin-top: 20px;
   }
   .nav-bar {
     display: flex;
     justify-content: space-evenly;
+    padding: 10px 10px 0px 0px;
   }
   .nav-bar a {
     color: #eeeeee;
   }
-  .menu i {
+  .menu {
     display: none;
+  }
+  .mission h3 {
+    font-size: 28px;
+  }
+  .mission p {
+    font-size: 23px;
+    padding: 10px 0px;
+  }
+  .people h3 {
+    font-size: 28px;
+  }
+  .people p {
+    font-size: 23px;
+    padding: 10px 0px;
+  }
+  .dolor h5 {
+    padding-right: 150px;
+  }
+  .dolor p {
+    font-size: 23px;
+    padding: 5px 70px 0px 235px;
+  }
+  .Rastus {
+    width: 270px;
+  }
+  .trail p {
+    font-size: 23px;
+  }
+  .trail button {
+    width: 155px;
+  }
+  .neisen {
+    display: flex;
+    justify-content: space-between;
+  }
+  .symbols {
+    float: right;
+    padding-right: 110px;
+  }
+  .footer h3 {
+    padding: 20px;
   }
 }
