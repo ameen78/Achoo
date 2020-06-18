@@ -46,7 +46,6 @@
 }
 @media screen and (min-width: 320px) {
   .influence {
-    width: 100vw;
     height: 60vh;
   }
   .influence p {
