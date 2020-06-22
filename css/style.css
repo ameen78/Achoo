@@ -30,11 +30,11 @@
   background-color: #d6cece;
 }
 .dolor {
-  padding: 20px 0px;
+  text-align: left;
+  padding: 20px 0px 10px 55px;
 }
 .achoo {
   color: #0ee0e0ea;
-  padding: 10px;
 }
 .trail {
   background-color: rgb(218, 98, 118);
@@ -67,7 +67,7 @@
   }
   .mission h3 {
     font-size: 25px;
-    padding: 10px 0px 10px 0px;
+    padding: 10px 0px;
   }
   .mission p {
     font-size: 18px;
@@ -81,12 +81,9 @@
   }
   .dolor h5 {
     font-size: 16px;
-    padding: 2px 65px 5px 0px;
   }
   .dolor p {
     font-size: 18px;
-    text-align: left;
-    padding-left: 55px;
   }
   .trail p {
     padding: 20px 10px;
@@ -109,10 +106,10 @@
     font-size: 20px;
   }
   .symbols {
-    padding-left: 20px;
+    margin-left: 12px;
     font-size: 30px;
   }
-  footer h3 {
+  .social h3 {
     padding: 10px 0px 10px 15px;
     font-size: 20px;
   }
@@ -156,12 +153,11 @@
     font-size: 23px;
     padding: 10px 0px;
   }
-  .dolor h5 {
-    padding-right: 150px;
+  .dolor {
+    padding-left: 220px;
   }
   .dolor p {
     font-size: 23px;
-    padding: 5px 70px 0px 235px;
   }
   .Rastus {
     width: 270px;
@@ -174,13 +170,148 @@
   }
   .neisen {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+  }
+  .social {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+  }
+  .social h3 {
+    font-size: 23px;
+    padding: 60px 60px 30px 0px;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .influence {
+    height: 150vh;
+  }
+  .start {
+    padding: 220px 0px 10px 0px;
+  }
+  .nav-bar {
+    padding-top: 20px;
+  }
+  .start p {
+    font-size: 32px;
+  }
+  .start button {
+    width: 170px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 17px;
+  }
+  .mission h3 {
+    font-size: 32px;
+    padding: 20px 0px;
+  }
+  .mission p {
+    font-size: 25px;
+    padding: 0px 10px 15px 10px;
+  }
+  .people h3 {
+    font-size: 32px;
+    padding: 20px 0px;
+  }
+  .people p {
+    font-size: 25px;
+  }
+  .dolor {
+    padding: 0px;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0px;
+  }
+  .trail {
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px;
+  }
+  .trail p {
+    font-size: 25px;
+  }
+  .trail button {
+    margin-top: 20px;
+    width: 170px;
+    height: 40px;
+    font-size: 17px;
+    border-radius: 20px;
+  }
+  .neisen h5 {
+    font-size: 25px;
+  }
+  .neisen ul {
+    font-size: 25px;
   }
   .symbols {
-    float: right;
-    padding-right: 110px;
+    font-size: 40px;
   }
-  .footer h3 {
-    padding: 20px;
+  .social h3 {
+    font-size: 28px;
+    padding: 90px 120px 70px 0px;
+  }
+}
+@media screen and (min-width: 1300px) {
+  .influence {
+    height: 170vh;
+  }
+  .nav-bar h3 {
+    font-size: 25px;
+  }
+  .nav-bar a {
+    font-size: 20px;
+  }
+  .start p {
+    font-size: 36px;
+  }
+  .start button {
+    font-size: 20px;
+    width: 190px;
+    height: 50px;
+    border-radius: 25px;
+  }
+  .mission h3 {
+    font-size: 36px;
+  }
+  .mission p {
+    font-size: 30px;
+    padding: 5px 5px 15px 5px;
+  }
+  .people h3 {
+    font-size: 36px;
+  }
+  .people p {
+    font-size: 30px;
+    padding: 5px 5px 15px 5px;
+  }
+  .dolor h5 {
+    font-size: 20px;
+  }
+  .dolor p {
+    font-size: 25px;
+  }
+  .trail p {
+    font-size: 36px;
+  }
+  .trail button {
+    font-size: 20px;
+    width: 190px;
+    height: 50px;
+    border-radius: 25px;
+  }
+  .neisen h5 {
+    font-size: 36px;
+  }
+  .neisen ul {
+    font-size: 36px;
+  }
+  .symbols {
+    font-size: 60px;
+    padding-left: 150px;
+  }
+  .social h3 {
+    font-size: 36px;
   }
 }
