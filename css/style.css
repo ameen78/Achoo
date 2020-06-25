@@ -31,7 +31,7 @@
 }
 .dolor {
   text-align: left;
-  padding: 20px 0px 10px 55px;
+  padding: 10px 0px 10px 60px;
 }
 .achoo {
   color: #0ee0e0ea;
@@ -130,11 +130,12 @@
   }
   .nav-bar {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     padding: 10px 10px 0px 0px;
   }
-  .nav-bar a {
+  .bar a {
     color: #eeeeee;
+    padding: 10px;
   }
   .menu {
     display: none;
@@ -218,9 +219,13 @@
   }
   .dolor {
     padding: 0px;
+    margin: 0px;
     display: flex;
-    justify-content: space-around;
-    padding: 20px 0px;
+    justify-content: center;
+    padding: 10px 0px 0px 60px;
+  }
+  .dolor1 {
+    flex: 1;
   }
   .trail {
     padding: 0px;
@@ -285,6 +290,9 @@
   .people p {
     font-size: 30px;
     padding: 5px 5px 15px 5px;
+  }
+  .dolor {
+    padding: 10px 0px 0px 100px;
   }
   .dolor h5 {
     font-size: 20px;
