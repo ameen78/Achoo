@@ -27,7 +27,7 @@
 .info {
   text-align: center;
   padding: 10px;
-  background-color: #d6cece;
+  background-color: #f8ecec;
 }
 .dolor {
   text-align: left;
@@ -307,7 +307,7 @@
   }
   .trail p {
     font-size: 36px;
-    padding: 10px 60px 10px 40px;
+    padding: 10px 60px 10px 0px;
   }
   .trail button {
     font-size: 20px;
