@@ -176,12 +176,15 @@
   }
   .social {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     flex-direction: row-reverse;
+  }
+  .symbols {
+    padding-right: 165px;
   }
   .social h3 {
     font-size: 23px;
-    padding: 60px 60px 30px 0px;
+    padding: 60px 0px 30px 55px;
   }
 }
 @media screen and (min-width: 1000px) {
@@ -256,10 +259,11 @@
   }
   .symbols {
     font-size: 40px;
+    padding-right: 200px;
   }
   .social h3 {
     font-size: 28px;
-    padding: 90px 120px 70px 0px;
+    padding: 80px 0px 50px 120px;
   }
 }
 @media screen and (min-width: 1300px) {
@@ -325,9 +329,10 @@
   }
   .symbols {
     font-size: 60px;
-    padding-left: 150px;
+    padding-right: 265px;
   }
   .social h3 {
     font-size: 36px;
+    padding: 80px 0px 60px 160px;
   }
 }
