@@ -225,7 +225,7 @@
     padding: 10px 0px 0px 60px;
   }
   .dolor1 {
-    flex: 1;
+    flex: 0.32;
   }
   .trail {
     padding: 0px;
@@ -236,13 +236,15 @@
   }
   .trail p {
     font-size: 25px;
+    padding-left: 60px;
   }
   .trail button {
     margin-top: 20px;
-    width: 170px;
+    width: 220px;
     height: 40px;
     font-size: 17px;
     border-radius: 20px;
+    margin-right: 110px;
   }
   .neisen h5 {
     font-size: 25px;
@@ -290,6 +292,9 @@
   .people p {
     font-size: 30px;
     padding: 5px 5px 15px 5px;
+  }
+  .dolor1 {
+    flex: 0.23;
   }
   .dolor {
     padding: 10px 0px 0px 100px;
