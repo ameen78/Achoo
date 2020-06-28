@@ -116,11 +116,7 @@
 }
 @media screen and (min-width: 700px) {
   .influence {
-    height: 80vh;
-    max-height: 120vh;
-  }
-  .start {
-    padding: 150px 10px 0px 10px;
+    background-size: 100vw 70vh;
   }
   .influence p {
     font-size: 25px;
@@ -189,11 +185,7 @@
 }
 @media screen and (min-width: 1000px) {
   .influence {
-    height: 100vh;
-    max-height: 120vh;
-  }
-  .start {
-    padding: 220px 0px 10px 0px;
+    background-size: 100vw 65vh;
   }
   .nav-bar {
     padding-top: 20px;
@@ -224,7 +216,6 @@
   }
   .dolor {
     padding: 0px;
-    margin: 0px;
     display: flex;
     justify-content: center;
     padding: 10px 0px 0px 60px;
@@ -268,7 +259,7 @@
 }
 @media screen and (min-width: 1300px) {
   .influence {
-    height: 170vh;
+    background-size: 100vw 63vh;
   }
   .nav-bar h3 {
     font-size: 25px;
