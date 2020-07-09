@@ -160,7 +160,7 @@
   .Rastus {
     width: 270px;
   }
-  .trail p {
+  /* .trail p {
     font-size: 23px;
   }
   .trail button {
@@ -169,7 +169,7 @@
   .neisen {
     display: flex;
     justify-content: space-around;
-  }
+  } */
   .social {
     display: flex;
     justify-content: space-between;
