@@ -156,7 +156,7 @@
     font-size: 23px;
   }
   .dolor1 {
-    padding-left: 250px;
+    padding-left: 180px;
   }
   .Rastus {
     width: 270px;
@@ -191,9 +191,6 @@
     background-size: 100vw 65vh;
     background-size: cover;
   }
-  .nav-bar {
-    padding-top: 20px;
-  }
   .start p {
     font-size: 32px;
   }
@@ -205,7 +202,6 @@
   }
   .mission h3 {
     font-size: 32px;
-    padding: 15px 0 10px 0;
   }
   .mission p {
     font-size: 25px;
@@ -213,7 +209,6 @@
   }
   .people h3 {
     font-size: 32px;
-    padding: 15px 0 10px 0;
   }
   .people p {
     font-size: 25px;
@@ -237,7 +232,6 @@
   }
   .trail p {
     font-size: 25px;
-    padding-left: 60px;
   }
   .trail button {
     margin-top: 20px;
@@ -289,7 +283,6 @@
   }
   .mission p {
     font-size: 30px;
-    padding: 5px 5px 15px 5px;
   }
   .people h3 {
     font-size: 36px;
@@ -309,7 +302,6 @@
   }
   .trail p {
     font-size: 36px;
-    padding: 10px 60px 10px 0;
   }
   .trail button {
     font-size: 20px;
