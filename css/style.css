@@ -30,9 +30,6 @@
 .info {
   text-align: center;
   background-color: #f8ecec;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
 }
 .dolor {
   padding: 10px;
@@ -69,17 +66,21 @@
   }
   .mission h3 {
     font-size: 25px;
-    padding: 10px 0;
   }
   .mission p {
     font-size: 18px;
   }
   .people h3 {
     font-size: 25px;
-    padding: 10px 0;
   }
   .people p {
     font-size: 18px;
+  }
+  .dolor1 {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
   }
   .dolor h5 {
     font-size: 16px;
@@ -154,6 +155,9 @@
   .dolor p {
     font-size: 23px;
   }
+  .dolor1 {
+    padding-left: 250px;
+  }
   .Rastus {
     width: 270px;
   }
@@ -182,7 +186,10 @@
 }
 @media screen and (min-width: 1000px) {
   .influence {
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: 100vw 65vh;
+    background-size: cover;
   }
   .nav-bar {
     padding-top: 20px;
@@ -218,6 +225,7 @@
     padding: 10px 40px;
   }
   .dolor1 {
+    padding: 0;
     flex: 0.32;
   }
   .trail {
@@ -256,7 +264,10 @@
 }
 @media screen and (min-width: 1300px) {
   .influence {
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: 100vw 63vh;
+    background-size: cover;
   }
   .nav-bar h3 {
     font-size: 25px;
