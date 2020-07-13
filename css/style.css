@@ -13,7 +13,7 @@
 }
 .start {
   text-align: center;
-  height: 200px;
+  height: 230px;
 }
 .nav-bar a {
   text-decoration: none;
@@ -32,7 +32,7 @@
   background-color: #f8ecec;
 }
 .dolor {
-  padding: 10px;
+  padding: 10px 50px;
 }
 .achoo {
   color: #0ee0e0ea;
