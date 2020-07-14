@@ -13,7 +13,7 @@
 }
 .start {
   text-align: center;
-  height: 250px;
+  height: 230px;
 }
 .nav-bar a {
   text-decoration: none;
@@ -118,7 +118,11 @@
 }
 @media screen and (min-width: 700px) {
   .influence {
-    background-size: 100vw 70vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size: 100vw 25vh; */
+    background-size: cover;
+    /* background-size: 100vw 70vh; */
   }
   .influence p {
     font-size: 25px;
@@ -187,7 +191,7 @@
   .influence {
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 100vw 65vh;
+    /* background-size: 100vw 65vh; */
     background-size: cover;
   }
   .start p {
