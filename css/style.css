@@ -24,6 +24,13 @@
   background-color: #d34b62;
   border-radius: 16px;
   border: none;
+  cursor: pointer;
+}
+.influence button:hover {
+  color: #d34b62;
+  background-color: #76d5f5;
+  transition: 1s;
+  border: none;
 }
 .mission {
   text-align: center;
@@ -121,9 +128,7 @@
   .influence {
     background-position: center;
     background-repeat: no-repeat;
-    /* background-size: 100vw 25vh; */
     background-size: cover;
-    /* background-size: 100vw 70vh; */
   }
   .influence p {
     font-size: 25px;
@@ -144,6 +149,7 @@
   .bar a:hover {
     background-color: #76d5f5;
     color: #db8f74;
+    transition: 0.8s;
   }
   .menu {
     display: none;
@@ -196,7 +202,6 @@
   .influence {
     background-position: center;
     background-repeat: no-repeat;
-    /* background-size: 100vw 65vh; */
     background-size: cover;
   }
   .start p {
