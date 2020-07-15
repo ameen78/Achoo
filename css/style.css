@@ -7,13 +7,14 @@
   background-image: url(/images/image1.jpg);
   background-size: cover;
   color: #eeeeee;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
 }
 .start {
   text-align: center;
-  height: 230px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
 }
 .nav-bar a {
   text-decoration: none;
@@ -138,7 +139,11 @@
   }
   .bar a {
     color: #eeeeee;
-    padding: 22px;
+    padding: 10px;
+  }
+  .bar a:hover {
+    background-color: #76d5f5;
+    color: #db8f74;
   }
   .menu {
     display: none;
