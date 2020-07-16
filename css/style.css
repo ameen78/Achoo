@@ -24,7 +24,6 @@
   background-color: #d34b62;
   border-radius: 16px;
   border: none;
-  cursor: pointer;
 }
 .influence button:hover {
   color: #d34b62;
@@ -273,7 +272,6 @@
   .influence {
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 100vw 63vh;
     background-size: cover;
   }
   .nav-bar h3 {
