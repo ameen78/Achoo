@@ -24,11 +24,13 @@
   background-color: #d34b62;
   border-radius: 16px;
   border: none;
+  transition: all;
 }
 .influence button:hover {
   color: #d34b62;
   background-color: #76d5f5;
-  transition: 1s;
+  transition-duration: 10s;
+  transition-timing-function: linear;
   border: none;
 }
 .mission {
