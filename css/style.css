@@ -27,11 +27,11 @@
   transition: all;
 }
 .influence button:hover {
-  color: #d34b62;
-  background-color: #76d5f5;
+  color: #f04763;
+  background-color: #4fc1e7;
   transition-duration: 10s;
   transition-timing-function: linear;
-  border: none;
+  transform: rotateY(180deg);
 }
 .mission {
   text-align: center;
