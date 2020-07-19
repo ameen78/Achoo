@@ -44,6 +44,12 @@
   text-align: center;
   background-color: #f8ecec;
 }
+.people {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 170px;
+}
 .dolor {
   padding: 10px 50px;
 }
