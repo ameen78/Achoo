@@ -41,10 +41,10 @@
   height: 30px;
 }
 .influence button:hover {
-  color: #f04763;
-  background-color: #4fc1e7;
-  transition-duration: 10s;
-  transition-timing-function: linear;
+  color: #87ceeb;
+  background-color: #7e18dd;
+  transition-duration: 5s;
+  transition-timing-function: ease-in;
   transform: rotateY(180deg);
 }
 .mission {
@@ -89,9 +89,6 @@
   font-size: 18px;
   padding: 0px 40px;
 }
-.dolor {
-  /* padding: 10px 50px; */
-}
 .achoo {
   color: #0ee0e0ea;
 }
@@ -106,16 +103,23 @@
   align-items: center;
 }
 .trail p {
-  /* padding: 20px 10px; */
+  font-size: 18px;
 }
 .trail button {
-  margin-bottom: 20px;
   background-color: #d34b62;
   color: #eeeeee;
   width: 140px;
   height: 30px;
   border-radius: 16px;
   border: none;
+  transition: all;
+}
+.trail button:hover {
+  background-color: #0000ff;
+  color: #1cececee;
+  transition-duration: 5s;
+  transition-timing-function: ease-in;
+  transform: rotateY(180deg);
 }
 .neisen {
   padding: 20px;
@@ -350,7 +354,6 @@
   }
   .people p {
     font-size: 30px;
-    padding: 5px 5px 15px 5px;
   }
   .dolor1 {
     flex: 0.25;
