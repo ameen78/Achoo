@@ -7,6 +7,7 @@
   background-image: url(/images/image1.jpg);
   background-size: cover;
   color: #eeeeee;
+  height: 60vh;
 }
 .start {
   text-align: center;
@@ -15,6 +16,17 @@
   justify-content: center;
   align-items: center;
   height: 250px;
+}
+.start p {
+  font-size: 20px;
+}
+.menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.nav-bar {
+  display: none;
 }
 .nav-bar a {
   text-decoration: none;
@@ -25,6 +37,8 @@
   border-radius: 16px;
   border: none;
   transition: all;
+  width: 140px;
+  height: 30px;
 }
 .influence button:hover {
   color: #f04763;
@@ -40,6 +54,12 @@
   justify-content: space-around;
   height: 220px;
 }
+.mission h3 {
+  font-size: 25px;
+}
+.mission p {
+  font-size: 18px;
+}
 .info {
   text-align: center;
   background-color: #f8ecec;
@@ -50,8 +70,27 @@
   justify-content: space-around;
   height: 170px;
 }
+.people h3 {
+  font-size: 25px;
+}
+.people p {
+  font-size: 18px;
+}
+.dolor1 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.dolor h5 {
+  font-size: 16px;
+  padding-right: 70px;
+}
+.dolor p {
+  font-size: 18px;
+  padding: 0px 40px;
+}
 .dolor {
-  padding: 10px 50px;
+  /* padding: 10px 50px; */
 }
 .achoo {
   color: #0ee0e0ea;
@@ -60,81 +99,61 @@
   background-color: rgb(218, 98, 118);
   text-align: center;
   color: #eeeeee;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 140px;
+  align-items: center;
+}
+.trail p {
+  /* padding: 20px 10px; */
+}
+.trail button {
+  margin-bottom: 20px;
+  background-color: #d34b62;
+  color: #eeeeee;
+  width: 140px;
+  height: 30px;
+  border-radius: 16px;
+  border: none;
 }
 .neisen {
   padding: 20px;
 }
-@media screen and (min-width: 320px) {
+.neisen h5 {
+  font-size: 20px;
+  padding: 10px 0;
+}
+.neisen ul {
+  list-style: none;
+  font-size: 20px;
+}
+.symbols {
+  margin-left: 12px;
+  font-size: 30px;
+}
+.social h3 {
+  padding: 10px 0 10px 15px;
+  font-size: 20px;
+}
+@media screen and (min-width: 375px) {
   .influence {
-    height: 60vh;
+    height: 65vh;
   }
-  .influence p {
-    font-size: 20px;
+  .start {
+    height: 280px;
   }
-  .influence button {
-    width: 140px;
-    height: 30px;
+  .mission {
+    height: 190px;
   }
-  .menu {
-    display: flex;
-    justify-content: space-between;
-    padding: 10px;
-  }
-  .nav-bar {
-    display: none;
-  }
-  .mission h3 {
-    font-size: 25px;
-  }
-  .mission p {
-    font-size: 18px;
-  }
-  .people h3 {
-    font-size: 25px;
-  }
-  .people p {
-    font-size: 18px;
-  }
-  .dolor1 {
-    text-align: left;
-    display: flex;
-    flex-direction: column;
-  }
-  .dolor h5 {
-    font-size: 16px;
+  .people {
+    height: 150px;
   }
   .dolor p {
-    font-size: 18px;
-  }
-  .trail p {
-    padding: 20px 10px;
-  }
-  .trail button {
-    margin-bottom: 20px;
-    background-color: #d34b62;
-    color: #eeeeee;
-    width: 140px;
-    height: 30px;
-    border-radius: 16px;
-    border: none;
-  }
-  .neisen h5 {
-    font-size: 20px;
-    padding: 10px 0;
-  }
-  .neisen ul {
-    list-style: none;
-    font-size: 20px;
-  }
-  .symbols {
-    margin-left: 12px;
-    font-size: 30px;
-  }
-  .social h3 {
-    padding: 10px 0 10px 15px;
-    font-size: 20px;
+    padding: 0 80px;
   }
 }
+
 @media screen and (min-width: 700px) {
   .influence {
     background-position: center;
@@ -184,14 +203,18 @@
   .people p {
     font-size: 23px;
   }
+  .dolor h5 {
+    padding-right: 150px;
+  }
   .dolor p {
     font-size: 23px;
-  }
-  .dolor1 {
-    padding-left: 180px;
+    padding: 0 220px;
   }
   .Rastus {
     width: 270px;
+  }
+  .trail {
+    height: 160px;
   }
   .trail p {
     font-size: 23px;
@@ -254,18 +277,23 @@
     padding: 0;
     flex: 0.32;
   }
+  .dolor h5 {
+    padding: 0;
+  }
+  .dolor p {
+    padding: 0;
+  }
   .trail {
     padding: 0;
     margin: 0;
     display: flex;
-    justify-content: space-evenly;
-    padding: 40px;
+    justify-content: space-around;
+    flex-direction: row;
   }
   .trail p {
     font-size: 25px;
   }
   .trail button {
-    margin-top: 20px;
     width: 220px;
     height: 40px;
     font-size: 17px;
