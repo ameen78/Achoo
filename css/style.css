@@ -121,23 +121,45 @@
   transition-timing-function: ease-in;
   transform: rotateY(180deg);
 }
+.part1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 130px;
+}
+.part2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 130px;
+}
+.part3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 130px;
+}
 .neisen {
   padding: 20px;
 }
 .neisen h5 {
   font-size: 20px;
-  padding: 10px 0;
 }
 .neisen ul {
   list-style: none;
   font-size: 20px;
 }
+.social {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 40px;
+  padding: 20px;
+}
 .symbols {
-  margin-left: 12px;
   font-size: 30px;
 }
 .social h3 {
-  padding: 10px 0 10px 15px;
   font-size: 20px;
 }
 @media screen and (min-width: 375px) {
@@ -157,7 +179,6 @@
     padding: 0 80px;
   }
 }
-
 @media screen and (min-width: 700px) {
   .influence {
     background-position: center;
@@ -236,7 +257,7 @@
     flex-direction: row-reverse;
   }
   .symbols {
-    padding-right: 165px;
+    padding-right: 150px;
   }
   .social h3 {
     font-size: 23px;
@@ -372,6 +393,9 @@
     width: 240px;
     height: 50px;
     border-radius: 25px;
+  }
+  .neisen {
+    padding: 50px;
   }
   .neisen h5 {
     font-size: 36px;
