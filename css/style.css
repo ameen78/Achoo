@@ -53,6 +53,7 @@
   flex-direction: column;
   justify-content: space-around;
   height: 220px;
+  padding: 10px;
 }
 .mission h3 {
   font-size: 25px;
@@ -69,6 +70,7 @@
   flex-direction: column;
   justify-content: space-around;
   height: 170px;
+  padding: 10px;
 }
 .people h3 {
   font-size: 25px;
@@ -286,7 +288,7 @@
     padding: 0;
     display: flex;
     justify-content: center;
-    padding: 10px 40px;
+    padding: 0 40px 10px 40px;
   }
   .dolor1 {
     padding: 0;
