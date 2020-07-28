@@ -368,6 +368,9 @@
   .people p {
     font-size: 30px;
   }
+  .dolor {
+    padding: 5px;
+  }
   .dolor1 {
     flex: 0.25;
   }
